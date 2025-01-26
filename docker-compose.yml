@@ -1,0 +1,25 @@
+# docker-compose.yml
+# Docker configuration for the DeArbi Network project
+
+version: "3.8"
+services:
+  blockchain:
+    image: ethereum/client-go
+    container_name: geth-node
+    ports:
+      - "8545:8545"
+    command: >
+      --dev
+      --http
+      --http.addr 0.0.0.0
+      --http.api personal,eth,net,web3
+      --allow-insecure-unlock
+  app:
+    build:
+      context: ./frontend
+    container_name: dearbi-frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:8545
+    command: npm run dev
