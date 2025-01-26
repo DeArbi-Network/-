@@ -1,0 +1,26 @@
+{
+  "ETH/USD": {
+    "ExchangeA": {
+      "price": 1600.00,
+      "volume": 5000,
+      "timestamp": 1672527600
+    },
+    "ExchangeB": {
+      "price": 1595.00,
+      "volume": 6000,
+      "timestamp": 1672527601
+    }
+  },
+  "BTC/USD": {
+    "ExchangeA": {
+      "price": 25000.00,
+      "volume": 8000,
+      "timestamp": 1672527602
+    },
+    "ExchangeB": {
+      "price": 24900.00,
+      "volume": 7500,
+      "timestamp": 1672527603
+    }
+  }
+}
