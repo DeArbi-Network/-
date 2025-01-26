@@ -1,0 +1,13 @@
+# config.yaml
+# Configuration file for the arbitrage agent
+
+trading_pairs:
+  - ETH/USD
+  - BTC/USD
+  - SOL/USD
+api_keys:
+  exchange_1: "your_exchange_1_api_key"
+  exchange_2: "your_exchange_2_api_key"
+execution_params:
+  max_trade_size: 1000
+  min_profit_margin: 0.01
