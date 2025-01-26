@@ -1,0 +1,9 @@
+# market_data.csv
+# Sample market data for simulation
+pair,exchange,price,volume,timestamp
+ETH/USD,ExchangeA,1600.00,5000,1672527600
+ETH/USD,ExchangeB,1595.00,6000,1672527601
+BTC/USD,ExchangeA,25000.00,8000,1672527602
+BTC/USD,ExchangeB,24900.00,7500,1672527603
+SOL/USD,ExchangeA,30.00,10000,1672527604
+SOL/USD,ExchangeB,29.50,12000,1672527605
